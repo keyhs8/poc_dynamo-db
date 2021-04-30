@@ -15,7 +15,7 @@ export default class Database {
                 };
             } else {
                 params = {
-                    region: 'eu-central-1',
+                    region: process.env.AWS_REGION,
                     apiVersion: '2012-08-10',
                 };
             }

@@ -36,7 +36,7 @@ export default async (ids) => {
         (await Promise.all(
             missing.map(
                 id => axios.get(
-                    `https://swapi.co/api/people/${id}/`
+                    `https://swapi.dev/api/people/${id}/`
                 ).catch(() => null)
             )
         )).forEach(res => {

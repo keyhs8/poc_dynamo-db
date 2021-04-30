@@ -1,28 +1,12 @@
 {
-  "name": "poc_apollo-graphql-serverless",
+  "name": "wac_api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "docker-compose -f compose.yml up"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/awesome1888/poc_apollo-graphql-serverless.git"
+    "start": "docker-compose up"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/awesome1888/poc_apollo-graphql-serverless/issues"
-  },
-  "homepage": "https://github.com/awesome1888/poc_apollo-graphql-serverless#readme",
-  "devDependencies": {
-    "npm-preinstall": "^1.0.7"
-  },
-  "workspaces": {
-    "packages": [
-      "*.app"
-    ]
-  }
+  "license": "ISC"
 }

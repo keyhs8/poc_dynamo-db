@@ -1,4 +1,4 @@
-import { mergeResolvers } from 'merge-graphql-schemas';
+import { mergeResolvers } from '@graphql-tools/merge';
 import movieResolver from './movie';
 import characterResolver from './character';
 import weaponResolver from './weapon';

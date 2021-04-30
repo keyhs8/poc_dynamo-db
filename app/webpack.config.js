@@ -23,7 +23,7 @@ module.exports = {
                         loader: 'babel-loader',
                         options: {
                             // ... and this
-                            presets: [['@babel/env', { targets: { node: '8.10' } }]],
+                            presets: [['@babel/env', { targets: { node: '14.16' } }]],
                             plugins: [
                                 '@babel/plugin-proposal-object-rest-spread',
                             ]
